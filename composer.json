@@ -1,0 +1,24 @@
+{
+    "name": "harrykdeveloper/php-watermark-images",
+    "description": "Put watermark on the jpg,png images file formats. This script is used to put watermark on bulk images in a single run and copy the converted files to new folder and the old folder will remain same.",
+    "type": "library",
+    "keywords": ["watermark images","watermark php script","watermark"],
+    "version": "1.0.0",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Harry Karwal",
+            "email": "harryk.developer@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "harrykdeveloper\\Watermark\\": "src/"
+        }
+    }
+}
